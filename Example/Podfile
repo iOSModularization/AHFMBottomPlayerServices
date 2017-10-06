@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFMBottomPlayerServices_Example' do
+  pod 'AHFMBottomPlayerServices', :path => '../'
+
+  target 'AHFMBottomPlayerServices_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
